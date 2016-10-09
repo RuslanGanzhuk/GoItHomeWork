@@ -24,6 +24,9 @@ public class Runner {
         System.out.println("Enter temperature on Fahrenheit");
         temperature.fahrenheitToCelsius(scanner.nextDouble());*/
 
+         Distance distance = new Distance();
+        distance.distanceDot(-2.3,8.5,4,0.7);
+
 
     }
 }
