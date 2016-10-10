@@ -1,4 +1,4 @@
-package goit.javaOnline.homeWork5;
+package goit.javaOnline.homeWork4;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

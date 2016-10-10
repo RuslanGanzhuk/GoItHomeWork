@@ -1,4 +1,4 @@
-package goit.javaOnline.homeWork5;
+package goit.javaOnline.homeWork4;
 
 public class Square {
 
