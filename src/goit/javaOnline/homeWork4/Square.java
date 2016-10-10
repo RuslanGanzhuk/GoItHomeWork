@@ -4,7 +4,7 @@ public class Square {
 
     private final double PI = 3.14;
 
-    public void triangleSquare(int baseTriangle, int heightTriangle){
+    public void triangleSquare(int baseTriangle, int heightTriangle) {
 
         double s = 0.5 * baseTriangle * heightTriangle;
 
@@ -12,7 +12,7 @@ public class Square {
 
     }
 
-    public void rectangleSquare(int sideA , int sideB){
+    public void rectangleSquare(int sideA, int sideB) {
 
         int s = sideA * sideB;
 
@@ -20,7 +20,7 @@ public class Square {
 
     }
 
-    public void circleSquare(int radius){
+    public void circleSquare(int radius) {
 
         double s = PI * (radius * radius);
 
