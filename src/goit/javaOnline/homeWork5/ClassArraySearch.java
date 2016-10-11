@@ -2,12 +2,10 @@ package goit.javaOnline.homeWork5;
 
 public class ClassArraySearch {
 
-    private int[] array = {1, 6, 4, 7, 12, 5, 5, 2, 21, 0, -6};
-    private int minOfArray = array[0];
-    private int maxOfArray = array[0];
 
+    public void searchMinOfArray(int[] array) {
 
-    public void searchMinOfArray() {
+         int minOfArray = array[0];
 
         for (int i = 0; i < array.length; i++) {
             if (array[i] < minOfArray) {
@@ -17,7 +15,9 @@ public class ClassArraySearch {
         System.out.println("Minimal element of array: " + minOfArray);
     }
 
-    public void searchMaxOfArray() {
+    public void searchMaxOfArray(int[] array) {
+
+        int maxOfArray = array[0];
 
         for (int i = 0; i < array.length; i++) {
             if (array[i] > maxOfArray) {
