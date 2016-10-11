@@ -2,7 +2,7 @@ package goit.javaOnline.homeWork5;
 
 public class Runner {
 
-    private static int[] array = {3,5,4,12,3,-6,0,0,23,5};
+    private final static int[] array = {3,5,4,12,3,-6,0,0,23,5};
 
     public static void main(String[] args) {
 
