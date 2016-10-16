@@ -5,15 +5,6 @@ public class MusicalInstrument {
     private String name;
     private Integer quantity;
 
-    public MusicalInstrument(String name, Integer quantity){
-
-        this.name = name;
-        this.quantity = quantity;
-    }
-
-    public MusicalInstrument(){
-
-    }
 
     public String getName() {
         return name;

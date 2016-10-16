@@ -2,12 +2,26 @@ package goit.javaOnline.homeWork6;
 
 public class Piano extends MusicalInstrument {
 
-    public Piano (String name, Integer quantity){
-        super(name, quantity);
+    private String name = "piano";
+    private Integer quantity;
+
+    @Override
+    public Integer getQuantity() {
+        return quantity;
     }
 
-   /* public int infoQuanyityOfPiano(){
-        return getQuantity();
-    }*/
+    @Override
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
 
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
 }
